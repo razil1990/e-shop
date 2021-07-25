@@ -1,0 +1,381 @@
+Looking for git in: git
+Using git 2.25.1 from git
+Opening repository for path='/home/razil/basic' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/.bowerrc' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/razil/basic/.gitignore' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/razil/basic/1.57.1-main.sock' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/razil/basic/Backups' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/Cache' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/CachedData' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/CachedExtensions' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/Code Cache' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/Cookies' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/razil/basic/Cookies-journal' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/razil/basic/Crash Reports' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/Dictionaries' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/GPUCache' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/LICENSE.md' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/razil/basic/Local Storage' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/Network Persistent State' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/razil/basic/QuotaManager' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/razil/basic/QuotaManager-journal' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/razil/basic/README.md' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/razil/basic/Service Worker' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/Session Storage' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/TransportSecurity' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/razil/basic/User' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/Vagrantfile' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/razil/basic/assets' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/basic' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/blob_storage' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/codeception.yml' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/razil/basic/commands' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/composer.json' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/razil/basic/composer.lock' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/razil/basic/config' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/controllers' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/docker-compose.yml' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/razil/basic/exthost Crash Reports' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/languagepacks.json' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/razil/basic/logs' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/machineid' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/razil/basic/mail' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/models' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/requirements.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/razil/basic/runtime' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/storage.json' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/razil/basic/tests' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/vagrant' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/vendor' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/views' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/web' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/widgets' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/yii' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/razil/basic/yii.bat' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/razil/basic' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/vendor/yiisoft/yii2-bootstrap/src' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/vendor/yiisoft/yii2/widgets' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/vendor/yiisoft/yii2/base' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/web/assets' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/web/css' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/web' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/views/site' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/views/site' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/views/site' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/controllers' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/views/site' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/controllers' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/views/layouts' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/views/site' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/views/layouts' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/controllers' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/views/layouts' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/razil/basic/controllers' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}

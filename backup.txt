@@ -1,0 +1,42 @@
+<p><?php debug($products)?></p>
+<?php foreach($products as $product): ?> 
+    <p><?= $product->price?></p>
+
+<p><?php debug($product->currentProduct)?></p>
+<?php endforeach ?>
+
+<?php foreach($categories as $category): ?>
+    <h4><?= $category->title ?></h4>
+    
+        <ul>
+            <li>
+                <img src="<?= $category->image_url ?>" width="100px" height="100px">
+                <p><?= $category->category_id ?></p>
+                <?php if($category->category_id): ?>
+                   <a href="index.php?r=category/view&id=<?=$category->category_id?>" data-id="<?=$category->category_id?>">Далее</a>
+                <?php else:?>
+                   <?= 111 ?>
+                <?php endif;?>
+            </li>
+        </ul>
+<?php endforeach; ?>
+<?php debug($categories) ?>
+<?php foreach($categories as $category): ?>
+    <h4><?= $category->title ?></h4>
+    
+        <ul>
+            <li>
+                <img src="<?= $category->image_url ?>" width="100px" height="100px">
+                <p><?= $category->category_id ?></p>
+                <?php if($category->category_id): ?>
+                    <?php if($category->products): ?>
+                        <?php foreach($category->products as $product): ?>
+                        <p><?=$product->title?></p>
+                        <?php endforeach ?>
+                    <?php else:?>
+                        <a href="index.php?r=category/view&id=<?=$category->category_id?>" data-id="<?=$category->category_id?>">Далее</a>
+                    <?php endif;?>
+                <?php endif;?>
+            </li>
+        </ul>
+<?php endforeach; ?>
