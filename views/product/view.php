@@ -7,4 +7,6 @@
         <li>Цена: <?= $product->price?> руб.</li>
     </ul>
 <?php endforeach ?>
+<button id="addToCart" type="button" data-id="<?= $product->product_id?>">Добавить в корзину</button>
+<button id="removeFromCart" type="button" data-id="<?= $product->product_id?>">Удалить из корзины</button>
 <?php $this->registerJsFile('./js/test.js');
