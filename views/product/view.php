@@ -9,4 +9,4 @@
 <?php endforeach ?>
 <button id="addToCart" type="button" data-id="<?= $product->product_id?>">Добавить в корзину</button>
 <button id="removeFromCart" type="button" data-id="<?= $product->product_id?>">Удалить из корзины</button>
-<?php $this->registerJsFile('./js/test.js');
+<?php $this->registerJsFile('./js/changeCart.js');

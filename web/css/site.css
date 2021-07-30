@@ -115,6 +115,61 @@ a.desc:after {
 }
 
 /* временный стили */
+
+
+h3 {
+    font-size: 18px;
+}
+
 ul {
     list-style: none;
 }
+
+.cart-container {
+    margin: 0 auto;
+    width: 600px;
+}
+.cart__wrapper {
+    margin-top: 20px;
+    border: 1px solid #D1D0D4;
+    border-radius: 15px;
+}
+
+.cart__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 18px;
+    margin: 0;
+}
+
+.cart__item--info {
+    display: flex;
+}
+
+.cart__product-info {
+    margin-left: 10px;
+}
+
+.cart__quantity-change-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    
+}
+
+.cart__button {
+    width: 40px;
+    height: 40px;
+    margin: 15px 0;
+    border-radius: 50%;
+    border: none;
+}
+
+.cart__button:hover {
+    cursor: pointer;
+}
+
+.cart__product-quantity{
+    margin: 25px 10px;
+}
+
