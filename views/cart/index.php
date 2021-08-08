@@ -1,8 +1,40 @@
 
+
+<!-- <form action="index.php?r=cart/order" method="POST">
+<input type="hidden" id="cartInput" name="cartInput">
+<button type="submit">Отправить</button>
+</form> -->
+
+<?php
+use yii\helpers\Html;
+use yii\widgets\ActiveForm;
+?>
+
 <div id="cartContainer" class="cart-container">
+<h3 id="total_price" class="total-price">Итого: </h3>
 </div>
 
-<input type="hidden" id="cartInput" name="cartInput">
+<div class="order-form">
+<?php $form = ActiveForm::begin([
+    'method'=>'post',
+    'action'=>['cart/order']
+]); ?>
+
+    <?= $form->field($model, 'order')->input('hidden', ['id'=>'order'])->label(false)?>
+    
+    <div class="form-group order-submit">
+        <?= Html::submitButton('Оформить заказ', ['class' => 'btn btn-primary']) ?>
+    </div>
+
+<?php ActiveForm::end(); ?>
+</div>
+
+<?php if(isset($empty)): ?>
+<h3>Корзина пуста</h3>
+<a href="index.php?r=site">На главную</a>
+<?php else:?>
+
+
 
 <template id="tmpl-cart">
         <ul class="cart__list">
@@ -46,26 +78,17 @@ $script = <<< JS
             return products;
         }
 
-        // function getCart() {
-        //     let productsId = [];
-        //     let products = getProducts();
-        //     for(let product of products) {
-        //         for(let i in product) {
-        //             productsId.push(i);
-        //         }
-        //     }
-        //     return productsId;
-        // }
-
         function createCartList(products) {
             let cartContainer = document.getElementById('cartContainer');
+            let total_price = document.getElementById('total_price');
+            let total = 0;
             for(let i of products) {
                 let cartList = document.getElementById('tmpl-cart');
                 let cartItem = document.createElement('div'); 
                 cartItem.id = 'cartItem_';
                 cartItem.classList.add('cart__wrapper');
-                cartItem.append(cartList.content.cloneNode(true));
-                cartContainer.append(cartItem);
+                cartItem.prepend(cartList.content.cloneNode(true));
+                cartContainer.prepend(cartItem);
                 let title = cartItem.querySelector('.cart__product-title');
                 let price = cartItem.querySelector('.cart__product-price');
                 let buttonAdd = cartItem.querySelector('.button-add');
@@ -91,18 +114,21 @@ $script = <<< JS
                 price.textContent = i.price * i.quantity;
                 cartItemQuantity.textContent = i.quantity;
                 img.src = i.image_url;
+                total += i.price;
+                console.log(total);
             }
+            total_price.textContent = total_price.textContent + total + ' руб.';
         }
 
-        function putToCartInput() {
-            let cartInput = document.getElementById('cartInput');
-            cartInput.addEventListener("putToCartInput", function(event) {
+        function putToOrder() {
+            let order = document.getElementById('order');
+            order.addEventListener("putToOrder", function(event) {
                 if(event.detail.name === 'ls') {
                     let products = getProducts();
-                    cartInput.value = JSON.stringify(products);
+                    order.value = JSON.stringify(products);
                 } 
             });
-            cartInput.dispatchEvent(new CustomEvent('putToCartInput', {
+            order.dispatchEvent(new CustomEvent('putToOrder', {
                 detail: { name: 'ls'}
             }));
         }
@@ -120,7 +146,7 @@ $script = <<< JS
                     priceElem.textContent = price * quantityElem.textContent;
                     localStorage.setItem('productId_' + evt.target.dataset.id, quantity);
 
-                    cartInput.dispatchEvent(new CustomEvent('putToCartInput', {
+                    order.dispatchEvent(new CustomEvent('putToOrder', {
                         detail: { name: 'ls'}
                     }));
 
@@ -129,7 +155,7 @@ $script = <<< JS
                     let priceElem = document.getElementById('cartItemPrice_' + evt.target.dataset.id);
                     let price = evt.target.dataset.price;
                     let quantity = quantityElem.textContent*1 - 1;
-                   
+                
                     if(quantity == 0) {
                         localStorage.removeItem('productId_' + evt.target.dataset.id);
                         document.getElementById('cartItem_' + evt.target.dataset.id).remove();
@@ -140,7 +166,7 @@ $script = <<< JS
                         localStorage.setItem('productId_' + evt.target.dataset.id, quantity);   
                     }
 
-                    cartInput.dispatchEvent(new CustomEvent('putToCartInput', {
+                    order.dispatchEvent(new CustomEvent('putToOrder', {
                         detail: { name: 'ls'}
                     }));
                 }  
@@ -163,10 +189,11 @@ $script = <<< JS
                 console.log(error);
             }
         });
-        putToCartInput();
+        putToOrder();
         changeProductQuantity();
         
     })();
 JS;
 
-$this->registerJs($script);
+$this->registerJs($script); ?>
+<?php endif; ?>

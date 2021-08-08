@@ -173,3 +173,20 @@ ul {
     margin: 25px 10px;
 }
 
+.total-price {
+    text-align: right;
+}
+
+.order-form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.order-submit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.confirm-order {
+    padding: 0;
+}
